@@ -15,7 +15,7 @@ import java.io.*;
  */
   
 // Java program to implement a Singly Linked List 
-public class Exercise_3 { 
+public class LinkedList { 
   
     Node head; // head of list 
   
@@ -35,7 +35,7 @@ public class Exercise_3 {
     } 
   
     // Method to insert a new node 
-    public static Exercise_3 insert(Exercise_3 list, int data) 
+    public static LinkedList insert(LinkedList list, int data) 
     { 
         // Create a new node with given data 
         Node newNode = new Node(data);
@@ -58,7 +58,7 @@ public class Exercise_3 {
     } 
   
     // Method to print the LinkedList. 
-    public static void printList(Exercise_3 list) 
+    public static void printList(LinkedList list) 
     {  
         Node current = list.head; // Start at the head
 
@@ -74,7 +74,7 @@ public class Exercise_3 {
     public static void main(String[] args) 
     { 
         /* Start with the empty list. */
-        Exercise_3 list = new Exercise_3(); 
+        LinkedList list = new LinkedList(); 
   
         // 
         // ******INSERTION****** 
